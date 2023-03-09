@@ -42,7 +42,16 @@
      <ul>
       <li>git status: checks what branch we are currently on</li>
       <li>git checkout -b branch-name: creates a new branch and switches to it</li>
-       <li>DAVE ADD MORE GIT NOTES HERE IN VISUAL CODE</li>
+       <li>Steps for completing the Git flow:
+            1. stage changes. In command line: git add -A
+            2. Add commit message: git commit -m"<COMMIT MESSAGE>"
+            3. Pull local base branch to local feature branch: git pull origin main
+            4. Push changes to remote repository: git push origin feature/BRANCH NAME
+            5. In GitHub: navigate to feature branch, confirm changes, go to Pull Requests,
+                open new pull request (main as base branch, feature as comparison branch),
+                create pull request, merge pull request
+            6. Delete branch and close issue
+            7. To update local main branch: git pull origin main
      </ul>
       </section>
    
